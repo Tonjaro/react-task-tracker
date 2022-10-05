@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+//Apps or UI are a bunch of components/funcitons
 
 function App() {
+  const name = 'Tony'
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Container">
+     <h1>Hello from React</h1>
+     <h2>Hello {name}</h2>
     </div>
   );
 }
