@@ -1,11 +1,11 @@
 //Apps or UI are a bunch of components/funcitons
+// Import Components from component dir into the App JS
+import Header from './components/Header'
 
 function App() {
-  const name = 'Tony'
   return (
     <div className="Container">
-     <h1>Hello from React</h1>
-     <h2>Hello {name}</h2>
+     <Header />
     </div>
   );
 }
